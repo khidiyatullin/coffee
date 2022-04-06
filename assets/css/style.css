@@ -117,6 +117,7 @@ li{
     align-items: center;
     justify-content: center;
 }
+/* Настройки текста */
 .intro_texts{
     text-align: center;
 }
@@ -148,9 +149,11 @@ li{
 .intro_btn:hover{
     filter: drop-shadow(2px 2px 10px #a25f4bcf);
 }
+/* тени для кнопки */
 .intro_btn:hover>a{
     color: #A25F4B;
 }
+/* Настройки кнопки */
 .intro_btn a{
     font-size: 12px;
     font-weight: 700;
@@ -159,6 +162,7 @@ li{
     color: #1D1F2E;
     transition: 0.3s;
 }
+/* Начало верстки 2 секции */
 /* products */
 .products{
     padding: 120px 0 130px 0;
@@ -168,7 +172,8 @@ li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+} 
+/* Расположение текста на секции */
 .products_texts{
     display: flex;
     flex-direction: column;
@@ -176,6 +181,7 @@ li{
     text-align: center;
     margin-bottom: 100px;
 }
+/* Настройки текста */
 .products_title{
     font-size: 28px;
     font-weight: 400;
@@ -197,7 +203,8 @@ li{
     border-bottom: 2px solid #A25F4B33;
     padding-bottom: 5px;
     transition: 0.3s;
-}
+} 
+/* тени под текстом */
 .products_full:hover{
     color: #000000;
 }
@@ -213,18 +220,21 @@ li{
     align-items: center;
     margin-bottom: 100px;
 }
+/* Линия под текстом */
 .line{
     width: 30px;
     height: 1px;
     background-color: #ECECED;
     margin: 0 15px;
 }
+/* Настройка текста */
 .featured_text{
     font-size: 12px;
     color: #1D1F2E;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/* Расположение блоков на секции */
 .featured_content{
     display: flex;
     align-items: center;
@@ -240,6 +250,7 @@ li{
 .featured_block:last-child{
     margin-right: 0px;
 }
+/* Настройки блока изображения */
 .featured_block img{
     margin-bottom: 35px;
     border: 1px solid transparent;
@@ -248,6 +259,7 @@ li{
 .featured_block img:hover{
     border: 1px solid #000;
 }
+/* Настройки текста */
 .featured_block_name{
     font-size: 20px;
     color: #1D1F2E;
@@ -270,6 +282,7 @@ li{
     color: #1D1F2E66;
     text-decoration-line: line-through;
 }
+/* Расположение текста на секции*/
 .more_products{
     display: flex;
     flex-direction: column;
@@ -282,6 +295,7 @@ li{
     align-items: center;
     justify-content: center;
 }
+/* Расположил картинки по центру */
 .products_blocks_first{
     display: flex;
     align-items: center;
@@ -309,6 +323,7 @@ li{
     border: 1px solid transparent;
     transition: 0.3s;
 }
+/* Задал тени для картинок */
 .product_block img:hover{
     border: 1px solid #000;
 }
