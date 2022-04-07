@@ -215,6 +215,7 @@ li{
     justify-content: center;
     margin-bottom: 100px;
 }
+/* Подзаголовок */
 .featured_title{
     display: flex;
     align-items: center;
@@ -259,12 +260,13 @@ li{
 .featured_block img:hover{
     border: 1px solid #000;
 }
-/* Настройки текста */
+/* Название продуктов */
 .featured_block_name{
     font-size: 20px;
     color: #1D1F2E;
     margin-bottom: 10px;
 }
+/* блок цен */
 .featured_block_price{
     display: flex;
     align-items: center;
@@ -323,10 +325,260 @@ li{
     border: 1px solid transparent;
     transition: 0.3s;
 }
-/* Задал тени для картинок */
+/* Задал контур для картинок */
 .product_block img:hover{
     border: 1px solid #000;
 }
 .product_block:last-child{
     margin-right: 0px;
+}
+.products_premium{
+    display: flex;
+}
+.premium_pic_con{
+    display: flex;
+    justify-content: space-between;
+}
+/* Анимация для картинок */
+.premium_pic_con img{
+    margin-right: 20px;
+    border: 1px solid transparent;
+}
+/* Границы для картинок */
+.premium_pic_con img:hover{
+    border: 1px solid #000;
+}
+.premium_twopic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.premium_pretitle{
+    font-size: 12px;
+    color: #1D1F2E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+.premium_title{
+    font-size: 36px;
+    color: #1D1F2E;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+.premium_subtitle{
+    font-size: 16px;
+    color: #1D1F2EB2;
+    line-height: 28px;
+    margin-bottom: 29.5px;
+}
+/* Настройки кнопки */
+.premium_btn{
+    padding: 9px 24px;
+    background-color: #1D1F2E;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.premium_btn:hover{
+    filter: drop-shadow(1px 1px 3px #000);
+    color: #A25F4B;
+}
+/* задний фон для секции */
+.section_pic{
+    background: url("../img/section_bg.jpg") no-repeat center center / cover;
+    height: 340px;
+    width: 1440px;
+    margin: 0 auto;
+}
+/* stories */
+.stories{
+    padding: 100px 0 141px 0;
+}
+.stories_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Расположение контента на секции */
+.stories_blocks{
+    display: flex;
+}
+/* расположение картинок на секции */
+.stories_block img{
+    margin-bottom: 29.19px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+/* задал границы для картинок */
+.stories_block img:hover{
+    border: 1px solid #000;
+}
+.stories_block{
+    margin-right: 20px;
+}
+.stories_block:last-child{
+    margin-right: 0px;
+} 
+/* настройки текста */
+.stories_block_title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D1F2E;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.stories_block_subtitle{
+    font-size: 16px;
+    color: #1D1F2EB2;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.stories_block_date{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+}
+/* updates */
+.updates{
+    background: url("../img/updates_bg.jpg") no-repeat center center;
+    height: 327px;
+    padding: 79.96px 0 85.04px 0;
+}
+.updates_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.updates_pretitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+/* Расположение текста */
+.updates_text{
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.updates_title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+/* Настройки формы для ввода EMAIL */
+.updates_inputs{
+    display: flex;
+}
+.updates_input{
+    width: 350px;
+    height: 54px;
+    padding: 18px 0px 18px 18px;
+    border: 1px solid #2F303E;
+    background-color: transparent;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+/* Настройки кнопки */
+.updates_sub{
+    padding: 18px 25px;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+     font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.updates_sub:hover{
+    filter: drop-shadow(1px 1px 7px #000);
+    color: #A25F4B;
+}
+/* footer */
+.footer{
+    padding: 107px 0 52px 0;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_nav{
+    display: flex;
+}
+/* Настройки текста */
+.footer_texts{
+    margin-right: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_text{
+    font-size: 14px;
+    color: #1D1F2EB2;
+    width: 258px;
+    margin-top: 22px;
+    margin-bottom: 82px;
+    line-height: 22px;
+}
+.footer_date{
+    font-size: 14px;
+    color: #1D1F2E4D;
+}
+.footer_menu_title{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+    margin-bottom: 23px;
+}
+.footer_menu_link{
+    font-size: 13px;
+    color: #1D1F2EB2;
+    line-height: 22px;
+    transition: 0.3s;
+}
+/* Задание линий для кнопок */
+.footer_menu_link:hover{
+    border-bottom: 1px solid #000;
+}
+ /* Расположение навигации */
+.footer_menu{
+    margin-right: 79px;
+}
+.footer_nav ul:last-child{
+    margin-right: 83px;
+}
+.footer_menu li{
+    margin-bottom: 10px;
+}
+.footer_menu li:last-child{
+    margin-bottom: 0;
+}
+.footer_menu_happy{
+    font-size: 13px;
+    color: #1D1F2EB2;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.footer_menu_us{
+    font-size: 23px;
+    font-weight: 400;
+    color: #1D1F2E;
+    margin-bottom: 58px;
+    line-height: 36px;
 }
