@@ -521,7 +521,7 @@ li{
 .footer_nav{
     display: flex;
 }
-/* Настройки текста */
+/* Настройки текста и расположение */
 .footer_texts{
     margin-right: 55px;
     display: flex;
